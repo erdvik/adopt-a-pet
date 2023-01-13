@@ -15,7 +15,6 @@ const PetDetailsPage = () => {
         const petsData = await getPetDetails(id);
         setData(petsData);
         setError(false);
-        window.scrollTo(0, 0)
       } catch (e) {
         setError(true);
       }
